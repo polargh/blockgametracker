@@ -3,9 +3,9 @@ version: "3"
 services:
   blockgametracker:
     build: .
-    image: ghcr.io/clrxbl/blockgametracker
+    image: ghcr.io/polargh/blockgametracker
     ports:
-      - "8080:8080"
+      - "9900:9900"
     environment:
       CONFIG_FILE: "/config/servers.yaml"
     volumes:

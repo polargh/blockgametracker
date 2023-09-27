@@ -5,4 +5,4 @@ metadata:
 spec:
   ports:
     - name: metrics
-      port: 8080
+      port: 9900
